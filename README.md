@@ -52,3 +52,5 @@ O build estático fica em `dist/`. Para publicar no Firebase Hosting, instale/us
 - Ambas as abas permitem editar e excluir. Esses cadastros não alteram os indicadores financeiros; custos de domínio continuam sendo registrados em Lançamentos.
 - Dados no Firestore: `offers/{offerId}/domains/{id}` e `offers/{offerId}/creatives/{id}`, com as mesmas permissões da oferta. **Republique `firestore.rules`** para habilitar as novas coleções em um projeto já configurado.
 - No modo local, as abas usam chaves próprias no navegador e preservam os lançamentos anteriores.
+
+Endereço principal: https://1kkmes.web.app. O site Hosting `1kkmes` usa o mesmo projeto Firebase `kkmes-7cf72`, login e Firestore. O endereço anterior continua disponível.
